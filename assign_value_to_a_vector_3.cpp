@@ -29,9 +29,9 @@ int main()
 
     //Assign value to a Vector; 
     vector<int> v = {1, 2, 3, 4, 5, 6};
-    // vector<int> v2;
+    vector<int> v2;
 
-    // v2 = v; //Assigning value of V to v2;
+    v2 = v; //Assigning value of V to v2;
 
     // for(int i = 0; i < v2.size(); i++)
     // {
@@ -43,6 +43,7 @@ int main()
     {
         cout << x << " ";
     }
+
 
     return 0;
 }
